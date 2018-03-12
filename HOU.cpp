@@ -2,27 +2,6 @@
 char middle::account[10] = "abc";
 char middle::password[12] = "abcabc";
 
-int main()
-{	
-	middle chance;
-	interface swap_;
-	dataProcessing data;
-	operating oper;
-	int n;
-	if (swap_.main_page(chance))
-
-	{
-		while (1)
-		{
-			n = swap_.user_input(chance);
-			chance.port(n,data,oper);
-		}
-	}
-	else
-		exit(1);
-	system("pause");
-	return 0;
-}
 int middle::account_(char a[], char  b[])
 {
 	if (strcmp(a, account) == 0 && strcmp(b, password) == 0)
