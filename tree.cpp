@@ -14,7 +14,7 @@ public:
 	void preorder(TreeNode<T> *b);//前序遍历递归算法
 	void inorder(TreeNode<T>*b);//中序遍历递归算法
 	void postorder(TreeNode<T>*b);//后序遍历递归算法
-    TreeNode<T> * createTree(TreeNode<T>*&b);//建立一个二叉树
+    TreeNode<T> * createTree(TreeNode<T>*&b);//建立二叉树
 	
 };
 template<class T>
