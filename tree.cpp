@@ -29,7 +29,7 @@ TreeNode<T>*Tree<T>::createTree(TreeNode<T>*&b) {
 			if (b == NULL) { cerr << "存储分配出错\n"; }
 			createTree(b->left);
 			createTree(b->right);
-			return b;
+			return ( b);
 		
 	}
 }
@@ -66,7 +66,7 @@ int main(){
 	q->preorder(p);
 	cout << "\n中序输出" << endl;
 	 q->inorder(p);
-	 cout << "\n后序输出 " << endl;
+	 cout << "\n后序输出" << endl;
 	 q->postorder(p);
 	 system("pause");
 
