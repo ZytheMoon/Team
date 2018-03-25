@@ -60,7 +60,7 @@ void Tree<T>::postorder(TreeNode<T>*b) {
 int main(){
 	TreeNode<int> *p=new TreeNode<int>;
 	Tree<int>*q=new Tree<int>;
-	cout << "请按照前序的方式输入二叉树的节点元素" << endl;
+	cout << "请按照前序的方法输入二叉树的节点元素" << endl;
 	 q->createTree(p);
 	cout << "前序输出" << endl;
 	q->preorder(p);
